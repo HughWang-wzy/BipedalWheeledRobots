@@ -59,7 +59,7 @@
           <p>
             本项目面向 <strong>TRON1 双轮足机器人</strong>，研究基于强化学习的感知运动与导航控制系统。
             当前主页重点展示 <strong>locomotion</strong> 板块，包括训练、仿真回放与实机迁移方向；
-            <strong>navigation</strong> 板块目前以分层控制原型为主，仍在持续完善。
+            <strong>navigation</strong> 板块展示分层控制原型与导航测试结果。
           </p>
           <p>
             整体研究路线围绕 Isaac Lab 中的高保真建模、PPO 训练、MoE 模态融合以及
@@ -514,6 +514,13 @@
             <strong>(vx, vy, yaw rate)</strong>，底层预训练 locomotion policy 负责稳定执行。
             系统目标包括目标点到达、障碍规避与端到端任务闭环展示。
           </p>
+        </div>
+
+        <div class="content-card navigation-video-card">
+          <video controls autoplay loop muted playsinline preload="metadata">
+            <source src="./static/videos/navigation/nav1.mp4" type="video/mp4">
+          </video>
+          <p class="card-caption">导航测试：高层策略输出速度指令，底层 locomotion policy 执行闭环控制。</p>
         </div>
       </div>
     </section>

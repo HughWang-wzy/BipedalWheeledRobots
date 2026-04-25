@@ -184,6 +184,11 @@ code {
   aspect-ratio: 16 / 9;
 }
 
+.speed-video-item video {
+  background: #0f172a;
+  object-fit: contain;
+}
+
 .method-card-title,
 .mode-title {
   margin: 0 0 0.7rem;
@@ -199,6 +204,10 @@ code {
   font-size: 0.93rem;
   color: #556270;
   font-weight: 600;
+}
+
+.navigation-video-card {
+  margin-top: 1rem;
 }
 
 .core-idea-banner {
